@@ -1,0 +1,37 @@
+server:
+#  address: 192.168.1.148
+  port: 9000
+
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/testdatabase?user=root
+    username: root
+    password: koreasign^0^
+
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MariaDB106Dialect
+
+  security:
+    user:
+      name: 'koreasign'
+      password: '$2a$10$sXbQjjQvr3ay2jdk11N0xOD1l5kyAFbv.UlYUFKbxLh1RqBFXu5bu'
+      roles: 'ADMIN'
+#      password: 'qwe'
+
+
+dock:
+  ss: 9999
+
+target:
+  service:
+    url:
+      https://jsonplaceholder.typicode.com/comments
+#      http://localhost:5173
+    url2:
+      http://kosign.iptime.org:65534
