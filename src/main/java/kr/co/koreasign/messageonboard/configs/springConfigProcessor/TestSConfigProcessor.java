@@ -1,4 +1,4 @@
-package kr.co.koreasign.messageonboard.configs.springConfigProc;
+package kr.co.koreasign.messageonboard.configs.springConfigProcessor;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -30,8 +30,13 @@ dock:
 
 target:
   service:
-    url:
-      https://jsonplaceholder.typicode.com/comments
+    backurl:
+#      https://jsonplaceholder.typicode.com/comments
 #      http://localhost:5173
-    url2:
+      http://kosign.iptime.org:65535
+    fronturl:
       http://kosign.iptime.org:65534
+
+logging:
+  level:
+    org.springframework.security: debug
