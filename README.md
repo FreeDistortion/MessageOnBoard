@@ -8,7 +8,7 @@
 `MariaDB 11.3.1`<br/>
 `Node.js 20.11.0`<br/>
 `Spring Boot 3.2.1`<br/>
-`Svelte 3.59.2`<br/>
+`SvelteKit 2.0.0`<br/>
 ~~`Vue.js 5.0.8`~~
 
 <hr/>
@@ -25,10 +25,14 @@
 `JPA`
 `Lombok`
 `MariaDB`
+`ModelMapper`
 `Node.js`
+`QRCode`
 `Spring Boot`
+`Spring Security`
 `Svelte`
-~~`Thymeleaf`~~
+`Thymeleaf`
+
 ~~`Vue.js 5.0.8`~~
 
     
@@ -38,7 +42,10 @@
 
 
 
-## ADD.
->Svlete
->>효율적 개발 `채용 및 기능 확장 용이` `빠른 교육, 개발, 출시` `적은 오류, 높은 성공률`<br/>
->기업 사용 예시 `NBA` `Apple` `New York Times` `IKEA` `Spotify`
+[//]: # (## ADD.)
+
+[//]: # (>Svlete)
+
+[//]: # (>>효율적 개발 `채용 및 기능 확장 용이` `빠른 교육, 개발, 출시` `적은 오류, 높은 성공률`<br/>)
+
+[//]: # (>기업 사용 예시 `NBA` `Apple` `New York Times` `IKEA` `Spotify`)
