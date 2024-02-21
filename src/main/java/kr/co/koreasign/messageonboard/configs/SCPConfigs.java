@@ -1,8 +1,8 @@
 package kr.co.koreasign.messageonboard.configs;
 
-import kr.co.koreasign.messageonboard.configs.springConfigProc.FrontServerSConfigProcessor;
-import kr.co.koreasign.messageonboard.configs.springConfigProc.ServerSConfigProcessor;
-import kr.co.koreasign.messageonboard.configs.springConfigProc.TestSConfigProcessor;
+import kr.co.koreasign.messageonboard.configs.springConfigProcessor.RESTServerSConfigProcessor;
+import kr.co.koreasign.messageonboard.configs.springConfigProcessor.ServerSConfigProcessor;
+import kr.co.koreasign.messageonboard.configs.springConfigProcessor.TestSConfigProcessor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -17,8 +17,8 @@ public class SCPConfigs {
         return new TestSConfigProcessor();
     }
     @Bean
-    public FrontServerSConfigProcessor frontServerSConfigProcessor() {
-        return new FrontServerSConfigProcessor();
+    public RESTServerSConfigProcessor frontServerSConfigProcessor() {
+        return new RESTServerSConfigProcessor();
     }
 
 }

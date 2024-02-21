@@ -5,6 +5,28 @@
     <title>Title</title>
 </head>
 <body>
-ss
+<div th:replace="~{/fragments/header::fragment-header}"></div>
+<form th:action="@{/vks/add/filteredmessage}" method="post">
+<table>
+    <thead>
+        <tr>
+            <th>Checkbox</th>
+            <th>ID</th>
+            <th>Content</th>
+            <th>CreatedAt</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr th:each="message: ${messageList}" >
+        <td><input type="checkbox" th:value="${message.id}" name="messageId"></td>
+        <td th:text="${message.id}"></td>
+        <td th:text="${message.content}"></td>
+        <td th:text="${message.createdAt}"></td>
+    </tr>
+    </tbody>
+</table>
+
+<button type="submit">Send To Signage</button>
+</form>
 </body>
 </html>
